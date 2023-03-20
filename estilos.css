@@ -1,0 +1,88 @@
+body{
+    background-image: url("Imagenes/estrellas.jpg");
+}
+
+h1{
+text-align: center;
+}
+
+header{
+    text-shadow: 2px 2px 5px rgba(193, 154, 230, 0.888);
+    background-color: rgb(57, 49, 91);
+    color: bisque;
+    display: flex;
+    margin: 10px;
+    padding-right: 10px;
+    padding-left: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#fotoPortada{
+    width: 120px;
+    border-radius: 10px;
+    margin: 5px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+nav{
+    background-color: rgba(119, 13, 205, 0.59);
+    color: aliceblue;
+    display: flex;
+}
+
+form{
+    margin-top: 15px;
+}
+
+nav ul{
+    display: flex;
+    margin: px;
+    padding: 0px;
+    list-style: none;
+}
+
+nav ul li a{
+ color: black;
+ padding: 15px;
+ text-decoration: none;
+}
+
+ul li{
+    font: bold;
+}
+
+.general{
+    display: flex;
+    margin-top: 15px;
+}
+
+aside{
+background-color: rgb(137, 77, 193, 0.75);
+width: 25%;
+padding: 7px;
+}
+
+aside li{
+    color:aliceblue;
+    padding: 7px;
+}
+
+main{
+width: 75%;
+padding: 10px;
+text-align: justify;
+
+}
+footer{
+background-color: rgba(137, 43, 226, 0.25);
+color: aliceblue;
+text-align: center;
+padding-bottom: 10px;
+border-radius: 10px;
+}
+
+footer a{
+    text-decoration:none;
+}
